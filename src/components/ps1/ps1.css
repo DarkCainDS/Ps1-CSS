@@ -1,0 +1,219 @@
+.outer {
+    border-right: 4px dashed #4d4b4b;
+    border-left: 4px dashed #4d4b4b;
+    border-radius: 25px;
+    /* animation: moveAway 2s ease forwards;*/
+}
+
+.outerPlusAnimation {
+    border-right: 4px dashed #4d4b4b;
+    border-left: 4px dashed #4d4b4b;
+    border-radius: 25px;
+    animation: moveAway 2s ease forwards;
+}
+
+.ps1 {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    color: red;
+    width: 900px;
+    height: 500px;
+}
+
+.reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 13px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    border: 1px solid black;
+    box-shadow: 
+    1px 1px 1px 1px gray,
+    1px 1px 2px 1px white,
+    1px 1px 5px 1px gray,
+    inset 1px 1px 1px 1px gray,
+    inset 1px 1px 2px 1px white;
+    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease-out;
+}
+
+.power {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5DACA9;
+    font-size: 20px;
+    width: 120px;
+    height: 120px; 
+    border-radius: 90px;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    box-shadow: 
+    1px 1px 1px 1px gray,
+    1px 1px 2px 1px white,
+    1px 1px 5px 1px gray,
+    inset 1px 1px 1px 1px gray,
+    inset 1px 1px 2px 1px white;
+    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    transition: all 1s ease-out;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    background-color: gray;
+    filter: brightness(0.90);
+    box-shadow:
+        inset 1px 1px 10px 1px white,
+        inset -5px 8px 10px 0px black,
+        inset 8px -5px 10px 0px black;
+    border-radius: 10px;
+    background-image: url('./../../../public/Images/ztextute4.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.left span {
+    width: 10px;
+    height: 20px;
+    background: linear-gradient(0.50turn, rgb(137, 182, 115), rgb(206, 252, 32), rgb(206, 252, 42), rgb(127, 188, 12));
+    margin-top: 5px;
+    box-shadow: 
+        0px -5px 2px 0px rgb(95, 94, 94),
+        0px -3px 5px 0 gray,
+        -1px 0px 5px 0px gray,
+        inset 1px 0 5px 0 black,
+        inset 2px 0 5px 0 gray;
+    border-radius: 5px 5px 0 0;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 480px;
+    margin-top: 10px;
+    background-color: gray;
+    box-shadow:
+        inset 1px 1px 10px 1px white,
+        inset -5px 8px 10px 0px black,
+        inset 8px -5px 10px 0px black;
+    filter: brightness(0.8);
+    z-index: 1;
+    position: relative;
+    /* Agrega posicionamiento relativo */
+    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+
+.center span {
+    width: 530px;
+    height: 430px;
+    border-radius: 50%;
+    background-color: gray;
+    border: 1px solid black;
+    margin: -40px;
+    box-shadow: 1px 0px 10px 1px black,
+        inset 0 0 10px 0 #CCCCCC;
+    background-image: url('./../../../public/Images/Capa\ 2.1.png'),
+                    url('./../../../public/Images/ztextute4Inner.png');
+    background-size: 25%, cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(gray 10%, 30%, rgb(110, 110, 110) 90%);
+    box-shadow: inset -5px 8px 10px 0px rgb(75, 74, 74),
+        inset 8px -5px 10px 0px rgb(70, 69, 69);
+    filter: brightness(0.9);
+    background-image: url('./../../../public/Images/ztextute4.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+.open {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #78A4BE;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    box-shadow: 
+    1px 1px 1px 1px gray,
+    1px 1px 2px 1px white,
+    1px 1px 5px 1px gray,
+    inset 1px 1px 1px 1px gray,
+    inset 1px 1px 2px 1px white;
+    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.open:hover,
+.open:active,
+.power:hover,
+.power:active ,
+.reset:hover,
+.reset:active  {
+    background-color: #0056b3; /* Color diferente cuando el botón está en hover o activo */
+    transform: translateY(1px) scale(0.95); /* Mueve el botón hacia abajo cuando está activo */
+    box-shadow: 
+    0px 0px 3px 1px white,
+    0px 0px 5px 8px rgb(95, 95, 95),
+    inset 2px 1px 10px 0px black;
+}
+.right span{
+    width: 5px;
+    height: 77px;
+    background: gray;
+    box-shadow: 
+    1px 1px 10px -1px black,
+    inset 1px 1px 1px -1px black;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform-origin: bottom center; /* Esto es importante para que la rotación se haga desde el centro de la base de la manecilla */
+    transform: rotate(130deg);
+}
+@keyframes moveAway {
+    0% {
+        transform: scale(1);
+        /* Escala inicial del objeto */
+        opacity: 1;
+        /* Opacidad inicial del objeto */
+    }
+
+    100% {
+        transform: scale(2);
+        /* Escala final del objeto */
+        opacity: 0;
+        /* Opacidad final del objeto */
+    }
+}
