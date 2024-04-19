@@ -9,11 +9,17 @@ export const Ps1_2 = () => {
     setPower("span2");
     setTimeout(() => {
       setAnimate("outerPlusAnimation");
-    }, 2000);
-    
-    
+    }, 2000); 
   };
 
+  const handleClick2 = () => {
+    if(power === "span"){
+      setPower("span2");
+    }else{
+      setPower("span");
+    }
+    
+  };
   return (
     <div>
       {/**/}
@@ -22,7 +28,7 @@ export const Ps1_2 = () => {
         <div className="ps1">
           <div className="left">
             <div className="reset">RESET</div>
-            <div className="power">POWER</div>
+            <div className="power" onClick={handleClick2}>POWER</div>
             <span className={power}></span>
           </div>
           <div className="center">
