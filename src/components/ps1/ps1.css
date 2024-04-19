@@ -84,7 +84,7 @@
     background-repeat: no-repeat;
 }
 
-.left span {
+.span2 {
     width: 10px;
     height: 20px;
     background: linear-gradient(0.50turn, rgb(137, 182, 115), rgb(206, 252, 32), rgb(206, 252, 42), rgb(127, 188, 12));
@@ -98,6 +98,12 @@
     border-radius: 5px 5px 0 0;
 }
 
+.span {
+    width: 10px;
+    height: 20px;
+    margin-top: 5px;
+    background: linear-gradient( gray 0% , gray 20% , black 90%, black 100%);
+}
 .center {
     display: flex;
     align-items: center;
@@ -203,6 +209,7 @@
     transform: rotate(130deg);
 }
 @keyframes moveAway {
+    
     0% {
         transform: scale(1);
         /* Escala inicial del objeto */
