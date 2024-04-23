@@ -1,5 +1,5 @@
 import "./ps1.css";
-import React, { useState } from 'react';
+import React from 'react';
 
 function template() {
   const [state, setState] = ("123");

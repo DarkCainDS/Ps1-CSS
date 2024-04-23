@@ -8,8 +8,15 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
 
+  background-image: url('../public/Images/zzz.jpg');
+  background-position: cover;
+  background-repeat: no-repeat;
+
+}
+.logoWhite{
+  animation: disapear 7s forwards ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -21,9 +28,7 @@
   }
 }
 
-.App-header {
-
-}
+.App-header {}
 
 .App-link {
   color: #61dafb;
@@ -33,7 +38,38 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+@keyframes disapear{
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/*
+.triangle {
+  background: linear-gradient(45deg, red, transparent ,transparent);;
+
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid red;
+  rotate: 45deg;
+  
+}
+.triangle:nth-child(1){
+  rotate: 105deg;
+  margin-left: -100px;
+}
+*/

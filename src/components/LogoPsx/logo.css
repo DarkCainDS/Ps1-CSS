@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    animation: start 1s forwards ease-in;
+
+}
+@keyframes start {
+    from{
+opacity: 0;
+    }
+    to {
+        opacity: 1;
+
+    }
+}
+.square {
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg);
+    background: linear-gradient(0.6turn, #FE6402, #FFD302, #FE6402);    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.inner-square {
+    width: 100px;
+    height: 200px;
+    background: red;
+    
+    /**/animation: logoAnimation 1s forwards ease-in;
+}
+
+.inner-square2 {
+    width: 100px;
+    height: 200px;
+    background: red;
+    animation: logoAnimation2 1s forwards ease-in;
+}
+
+@keyframes logoAnimation {
+    0% {
+        width: 120px;
+        height: 200px;
+        background: red;
+        opacity: 0.1;
+    }
+    50%{        
+        width: 100px;
+        height: 150px;
+        opacity: 0.2;
+        background: linear-gradient(45deg, red,transparent, transparent);
+
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(45deg, red, transparent, transparent);
+        transform: translate(10px, -50%);
+    }
+}
+
+@keyframes logoAnimation2 {
+    0% {
+        width: 120px;
+        height: 200px;
+        background: red;
+        opacity: 0.1;
+    }
+    50%{        
+        width: 100px;
+        height: 150px;
+        opacity: 0.2;
+        background: linear-gradient(225deg, red, transparent, transparent);
+
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        background: linear-gradient(225deg, red, transparent, transparent);
+        transform: translate(-10px, 50%);
+    }
+}
