@@ -38,7 +38,7 @@
     1px 1px 5px 1px gray,
     inset 1px 1px 1px 1px gray,
     inset 1px 1px 2px 1px white;
-    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-image: url('./../../../public/assets/Images/ztextute4Inner.png');
     background-position: cover;
     background-repeat: no-repeat;
     transition: all 1s ease-out;
@@ -61,7 +61,7 @@
     1px 1px 5px 1px gray,
     inset 1px 1px 1px 1px gray,
     inset 1px 1px 2px 1px white;
-    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-image: url('./../../../public/assets/Images/ztextute4Inner.png');
     background-position: cover;
     background-repeat: no-repeat;
     transition: all 1s ease-out;
@@ -79,7 +79,7 @@
         inset -5px 8px 10px 0px black,
         inset 8px -5px 10px 0px black;
     border-radius: 10px;
-    background-image: url('./../../../public/Images/ztextute4.png');
+    background-image: url('./../../../public/assets/Images/ztextute4.png');
     background-position: cover;
     background-repeat: no-repeat;
 }
@@ -120,7 +120,7 @@
     z-index: 1;
     position: relative;
     /* Agrega posicionamiento relativo */
-    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-image: url('./../../../public/assets/Images/ztextute4Inner.png');
     background-position: cover;
     background-repeat: no-repeat;
 }
@@ -135,8 +135,8 @@
     margin: -40px;
     box-shadow: 1px 0px 10px 1px black,
         inset 0 0 10px 0 #CCCCCC;
-    background-image: url('./../../../public/Images/Capa\ 2.1.png'),
-                    url('./../../../public/Images/ztextute4Inner.png');
+    background-image: url('./../../../public/assets/Images/Capa\ 2.1.png'),
+                    url('./../../../public/assets/Images/ztextute4Inner.png');
     background-size: 25%, cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,7 +154,7 @@
     box-shadow: inset -5px 8px 10px 0px rgb(75, 74, 74),
         inset 8px -5px 10px 0px rgb(70, 69, 69);
     filter: brightness(0.9);
-    background-image: url('./../../../public/Images/ztextute4.png');
+    background-image: url('./../../../public/assets/Images/ztextute4.png');
     background-position: cover;
     background-repeat: no-repeat;
 }
@@ -175,7 +175,7 @@
     1px 1px 5px 1px gray,
     inset 1px 1px 1px 1px gray,
     inset 1px 1px 2px 1px white;
-    background-image: url('./../../../public/Images/ztextute4Inner.png');
+    background-image: url('./../../../public/assets/Images/ztextute4Inner.png');
     background-position: cover;
     background-repeat: no-repeat;
     cursor: pointer;
