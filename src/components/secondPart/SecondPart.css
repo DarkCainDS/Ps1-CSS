@@ -1,0 +1,119 @@
+.main-layer {
+    min-height: 100vh;
+
+    background-image: radial-gradient(circle at center,
+            #7F7FFD,
+            #4c4c8f,
+            #000020,
+            #000020);
+
+}
+
+
+
+.upperBalls {
+    padding: 50px;
+}
+
+.mainMenu_Box {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 200px;
+    height: 50px;
+    border: 3px solid #2A36B0;
+    border-radius: 1px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    background: radial-gradient(circle, #3243D0, #192173, black);
+    transition: all 400ms ease-in-out;
+}
+
+.mainMenu_Box:hover {
+    border-left: 3px solid #030358;
+    border-bottom: 3px solid rgb(30, 18, 82);
+    border-top: 3px solid #6C6CDF;
+    transform: translateX(1px) translateY(-1px);
+}
+
+.mainMenu_Box p:hover {
+    text-shadow: 10px 10px 5px black;
+
+}
+
+.MemoryAndPlayer {
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    color: white;
+    font-size: 50px;
+    z-index: 0;
+
+}
+
+.MemoryAndPlayer p {
+    color: white;
+    font-weight: bolder;
+    z-index: 1;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.MemoryAndPlayer p:hover {
+    transform: scale(1.1);
+}
+
+.MemoryAndPlayer div {
+    transform: translateY(-125px);
+}
+
+.colorButton {
+    width: 400px;
+    height: 90px;
+    background: 
+        linear-gradient(217deg, rgba(93, 252, 168, 1), rgba(255, 0, 0, 0.007) 30.71%),
+        linear-gradient(127deg, rgba(212, 106, 44, 0.8), rgba(0, 255, 0, 0) 40.71%),
+        linear-gradient(336deg, rgba(251, 85, 159, 0.8), rgba(0, 0, 255, 0) 50.71%), 
+        linear-gradient(270deg, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 50.71%),
+        linear-gradient(167deg, rgba(0, 255, 0, 1), rgba(0, 255, 0, 0) 40.71%),
+        linear-gradient(346deg, rgba(0, 0, 255, 1), rgba(0, 0, 255, 0.171) 70.71%);
+    -webkit-mask-image: url(../../../public//assets/Images/splash0.png);
+}
+.colorButton:nth-child(4){
+    background: 
+    linear-gradient(346deg, rgba(93, 252, 168, 1), rgba(255, 0, 0, 0.007) 30.71%),
+    linear-gradient(167deg, rgba(212, 106, 44, 0.8), rgba(0, 255, 0, 0) 40.71%),
+    linear-gradient(270deg, rgba(251, 85, 159, 0.8), rgba(0, 0, 255, 0) 50.71%), 
+    linear-gradient(56deg, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 50.71%),
+    linear-gradient(10deg, rgba(0, 255, 0, 1), rgba(0, 255, 0, 0.226) 40.71%),
+    linear-gradient(217deg, rgba(0, 0, 255, 1), rgba(0, 0, 255, 0.171) 70.71%);
+}
+.firstBall {
+    margin-left: 300px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(#6C6CDF, #080831);
+    border-radius: 100%;
+    box-shadow: inset 1px 1px 70px 1px black;
+}
+
+.firstBall:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 450px;
+}
+
+.lowerBalls {
+    position: absolute;
+    left: 30%;
+    bottom: 10%;
+    transform: rotate(0.5turn);
+}
