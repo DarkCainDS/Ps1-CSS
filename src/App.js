@@ -8,7 +8,8 @@ function App() {
 
   return (
     <div className="App">
-     { /*<Ps1_2/>*/}
+     { /*<Ps1_2/>
+     */}
     <FullIntro/>
     </div>
   );
