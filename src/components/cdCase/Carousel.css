@@ -4,59 +4,60 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border: 1px solid black;
-  padding-left: 100px;
+  padding: 10px 100px;
 }
 
 .carousel {
   display: flex;
   transition: transform 0.5s ease;
+  padding: 10px;
 }
 
 .card {
-  width: 400px;
-  height: 250px;
-  margin: 0 10px;
+  flex: 0 0 auto; /* Ajusta el ancho automáticamente */
+  width: 230px;
+  height: 170px;
+  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(50, 67, 208, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37),
-              -20px 0px 10px 0px black;
-  backdrop-filter: blur(5.5px);
-  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(50, 66, 208, 0.164);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.233),
+              -20px 0px 20px 0px black;
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin-top: 5px;
+  background-image: url("../../../public/assets/Images/blankCase4.png");
+  background-size: 230px 170px;
+  background-position: center;
+  background-repeat: no-repeat;
 
 }
 
 .card:nth-of-type(odd) {
-  border: 1px solid red;
   transform: rotate(5deg);
-
+  margin-top: 10px;
 
 }
 
 .card:nth-of-type(odd).active {
-  transform: rotate(5deg) scale(0.9);
+  transform: rotate(-5deg) scale(1.3);
+  z-index: 1;
 
 }
 
 .card:nth-of-type(even) {
-  border: 1px solid blue;
   transform: rotate(-5deg);
+  margin-top: -10px;
+
 }
 
 .card:nth-of-type(even).active {
-  transform: rotate(5deg) scale(0.9);
+  transform: rotate(5deg) scale(1.3);
+  z-index: 1;
 
 }
 
-.active {
-  transform: scale(.5);
 
-}
 
 .card-content {
   position: relative;
