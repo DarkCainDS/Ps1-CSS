@@ -161,7 +161,7 @@ export default function PS1CaseDisplay() {
                 onClick={() => handleCardClick(index)}
                 style={{ backgroundImage: `url(${card.imageUrl2})` }}
               >
-                <span class="holeCd"></span>
+                <span className="holeCd"></span>
               </button>
             </div>
           </div>
