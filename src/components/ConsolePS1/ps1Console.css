@@ -1,8 +1,5 @@
 .outer {
-    border-right: 4px dashed #4d4b4b;
-    border-left: 4px dashed #4d4b4b;
     border-radius: 25px;
-    /* animation: moveAway 2s ease forwards;*/
 }
 
 .outerPlusAnimation {
@@ -82,6 +79,7 @@
     background-image: url('./../../../public/assets/Images/ztextute4.png');
     background-position: cover;
     background-repeat: no-repeat;
+    border-left: 4px dashed #4d4b4b;
 }
 
 .span2 {
@@ -157,6 +155,7 @@
     background-image: url('./../../../public/assets/Images/ztextute4.png');
     background-position: cover;
     background-repeat: no-repeat;
+    border-right: 4px dashed #4d4b4b;
 }
 .open {
     display: flex;

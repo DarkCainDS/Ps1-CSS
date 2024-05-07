@@ -1,6 +1,7 @@
 import React from "react";
 import "../LogoPsx/logo.css";
 import { Logo } from "../LogoPsx/logo";
+import './fullIntro.css'
 export const FullIntro = () => {
   return (
     <div>

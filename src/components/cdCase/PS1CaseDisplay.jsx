@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./Carousel.css";
-export default function Carousel() {
+import "./PS1CaseDisplay.css";
+export default function PS1CaseDisplay() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const cards = [

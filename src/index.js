@@ -3,17 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import SecondPart from './components/secondPart/SecondPart';
-import '../src/components/secondPart/SecondPart.css'
-import SimpleSlider from './components/cdCase/Carousel';
+import '../src/components/secondPart/SecondPart.css';
+import PS1CaseDisplay from '../src/components/cdCase/PS1CaseDisplay';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*
+
     <App />
-     <SecondPart/>
-    */}
-    <SimpleSlider/>
+
+  
   </React.StrictMode>
 );
 

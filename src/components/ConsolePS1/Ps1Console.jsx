@@ -1,7 +1,8 @@
 import React from "react";
-import "../ps1/ps1.css";
+import "./ps1Console.css";
 import { useState } from "react";
-export const Ps1_2 = () => {
+
+export const Ps1Console = () => {
   const [animate, setAnimate] = useState("outer");
   const [power, setPower] = useState("span");
 
@@ -23,8 +24,8 @@ export const Ps1_2 = () => {
   return (
     <div>
       {/**/}
-      <button onClick={handleClick}>dsad</button>
-      <div className={animate}>
+      
+      <div className='outer'>
         <div className="ps1">
           <div className="left">
             <div className="reset">RESET</div>
