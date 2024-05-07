@@ -65,7 +65,6 @@
 
 .MemoryAndPlayer {
     display: flex;
-
     align-items: center;
     flex-direction: column;
     width: 600px;
@@ -81,6 +80,8 @@
     z-index: 1;
     font-size: 50px;
     letter-spacing: 1px;
+    cursor: url('../../../public/assets/Images/cursor2.png'), auto;
+
 }
 
 .MemoryAndPlayer p:hover {
@@ -92,6 +93,7 @@
 }
 
 .colorButton {
+    cursor: url('../../../public/assets/Images/cursor2.png'), auto;
     width: 400px;
     height: 90px;
     background: 

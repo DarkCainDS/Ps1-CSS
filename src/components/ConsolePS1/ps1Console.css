@@ -38,7 +38,7 @@
     background-image: url('./../../../public/assets/Images/ztextute4Inner.png');
     background-position: cover;
     background-repeat: no-repeat;
-    transition: all 1s ease-out;
+    transition: all 0ms ease-out;
 }
 
 .power {
