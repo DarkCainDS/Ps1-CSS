@@ -15,14 +15,14 @@
   position: absolute;
   top: 40%;
   left: 50%;
-  transform: translate(-50%, -50%);  width: 460px;
+  transform: translate(-50%, -50%);
   width: 560px;
   height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../public/assets/Images/Tv.png);
-  background-size: 540px 460px;
+  background-size: 545px 470px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 8px 1px;
 }
