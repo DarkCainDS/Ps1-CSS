@@ -1,0 +1,17 @@
+.tvsimulator2 {
+    /* Estilos para el contenedor */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  
+    /* Estilos para el párrafo */
+    text-align: center; /* Centrar el texto */
+    margin-top: 10px; /* Margen superior */
+  }
+  
+  .tvsimulator2 iframe {
+    /* Estilos para el iframe */
+    display: block; /* Evitar espacio adicional debajo del iframe */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }

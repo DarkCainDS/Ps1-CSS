@@ -2,7 +2,7 @@ import React from "react";
 import { Ps1Console } from "../ConsolePS1/Ps1Console";
 import PS1CaseDisplay from "./../cdCase/PS1CaseDisplay";
 
-export default function SecondPart() {
+export default function SecondPart({ onDatosCambiados }) {
   return (
     <div className="main-layer">
       <div className="mainMenu_Box">
@@ -27,7 +27,7 @@ export default function SecondPart() {
       </div>
 
       <div className="cdCasePosition">
-        <PS1CaseDisplay />
+        <PS1CaseDisplay onDatosCambiados={onDatosCambiados} />
       </div>
       
       <div className="ps1">

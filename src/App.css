@@ -11,4 +11,18 @@
   z-index: 0;
 
 }
-
+.tvSimulator{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);  width: 460px;
+  width: 560px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../public/assets/Images/Tv.png);
+  background-size: 540px 460px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./PS1CaseDisplay.css";
-export default function PS1CaseDisplay() {
+export default function PS1CaseDisplay({onDatosCambiados}) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const cards = [
@@ -141,6 +141,8 @@ export default function PS1CaseDisplay() {
   const handleCardClick = (index) => {
     console.log(`Clicked card ${index + 1}`);
     // Aquí puedes realizar cualquier acción que desees al hacer clic en una tarjeta
+    const datos = { id: index + 1 , };
+    onDatosCambiados(datos);
   };
 
   return (
