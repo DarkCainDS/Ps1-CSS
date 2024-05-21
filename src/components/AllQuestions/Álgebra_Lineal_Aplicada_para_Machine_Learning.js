@@ -45,66 +45,66 @@ const Álgebra_Lineal_Aplicada_para_Machine_Learning = [
     ],
   },
   {
-    questionTitle: "",
+    questionTitle: "Una forma simple de visualizar el efecto que la aplicacion de una matriz A de 2x2 tiene es_",
     options: [
-      { answerText: "", isCorrect: true },
+      { answerText: "Graficar el circulo unitario y el circulo unitario transformado", isCorrect: true },
       { answerText: "", isCorrect: false },
       { answerText: "", isCorrect: false },
       { answerText: "", isCorrect: false },
     ],
   },
   {
-    questionTitle: "",
+    questionTitle: "Al descomponer una matriz no cuadrada A por el metodo SVD obtenemos 3 matrices U, D, V. Donde podemos interpretar a cada matriz como una transforamacion que debe ser aplicada en el siguiente orden:",
+    options: [
+      { answerText: "", isCorrect: false },
+      { answerText: "", isCorrect: false },
+      { answerText: "", isCorrect: false },
+      { answerText: "V -> Primera rotacion D -> Escala U -> Segunda rotacion", isCorrect: true },
+    ],
+  },
+  {
+    questionTitle: "usar np.linalg.svd  para descomponer una matriz por el metodo SVD nos devuelve 3 objetos U,D ,V ¿que es D?",
     options: [
       { answerText: "", isCorrect: true },
+      { answerText: "es una matriz diagonal que contiene los valores singulares de la matriz origina", isCorrect: false },
+      { answerText: "", isCorrect: false },
+      { answerText: "", isCorrect: false },
+    ],
+  },
+  {
+    questionTitle: "Cuando importamos una imagen a una matriz usando np.array(list(imagen.gedata(band=0)), float) obtenemos:",
+    options: [
+      { answerText: "Un vector con el valor de cada pixel en la imagen", isCorrect: true },
       { answerText: "", isCorrect: false },
       { answerText: "", isCorrect: false },
       { answerText: "", isCorrect: false },
     ],
   },
   {
-    questionTitle: "",
+    questionTitle: "Cuando aplicamos la descomposición SVD a una imagen podemos:",
     options: [
-      { answerText: "", isCorrect: true },
       { answerText: "", isCorrect: false },
       { answerText: "", isCorrect: false },
+      { answerText: "Visualizar la imagen con menor calidad usando U[:, :1],D[1] y V[1,]", isCorrect: true },
       { answerText: "", isCorrect: false },
     ],
   },
   {
-    questionTitle: "",
+    questionTitle: " Al descomponer por SVD a una matriz que contiene los pixeles de una imagen podemos reducir su tamaño y consecuentemente la definición al:",
     options: [
-      { answerText: "", isCorrect: true },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
+      { answerText: "Elegir la cantidad de valores singulares que conservaremos.", isCorrect: true },
+      { answerText: "Mejorar la calidad de la imagen.", isCorrect: false },
+      { answerText: "Aumentar la resolución de la imagen.", isCorrect: false },
+      { answerText: "Reducir la claridad de la imagen.", isCorrect: false },
     ],
   },
   {
-    questionTitle: "",
+    questionTitle: "¿Cuál es la pseudoinversa de Moore Penrose de la matriz? [[12] [34] [56]]",
     options: [
-      { answerText: "", isCorrect: true },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-    ],
-  },
-  {
-    questionTitle: "",
-    options: [
-      { answerText: "", isCorrect: true },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-    ],
-  },
-  {
-    questionTitle: "",
-    options: [
-      { answerText: "", isCorrect: true },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
-      { answerText: "", isCorrect: false },
+      { answerText: "[[0.00884956], [0.01769912], [0.02654867]]", isCorrect: false },
+      { answerText: "[[0.02941176, 0.05882353, 0.08823529]]", isCorrect: false },
+      { answerText: "[[0.00236967, 0.00671141, 0.01105315]]", isCorrect: false },
+      { answerText: "[[-1.33333333 -0.33333333 0.66666667] [1.08333333 0.33333333 -0.41666667]]", isCorrect: true },
     ],
   },
   {
