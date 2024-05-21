@@ -35,7 +35,7 @@ export default function ThirdComponent({ videoId = 0}) {
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       ></iframe>
-      <p>Sony</p>
+      
     </div>
   );
 }

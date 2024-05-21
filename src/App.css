@@ -9,20 +9,109 @@
   background-repeat: no-repeat;
   background-color: black;
   z-index: 0;
+  color: red;
+}
+.App2 {
+  min-height: 100vh;
+
+  background-image: radial-gradient(circle at center,
+          #7F7FFD,
+          #4c4c8f,
+          #000020,
+          #000020);
 
 }
-.tvSimulator{
+.divideScreen {
+  display: flex;
+  flex-direction: row;
+  color: red;
+  height: 100vh;
+  width: 98vw;
+}
+
+.tvSimulator {
   position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 5%;
   width: 560px;
-  height: 450px;
+  height: 480px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url(../public/assets/Images/Tv.png);
-  background-size: 545px 470px;
+  background-size: 545px 460px;
   background-repeat: no-repeat;
-  background-position: 8px 1px;
+  background-position: 11px 40px;
+  color: transparent;
+
+}
+.UpperBox{
+  height: 100px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto; 
+  scroll-behavior: smooth;
+  white-space: nowrap;
+  margin-left: 5%;
+  text-wrap: pretty;
+  overflow-y: hidden;
+}
+.UpperBox button{
+  margin-top: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  min-width: 100px; 
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+}
+.UpperBox button:hover{
+  border-radius: 20px;
+  display: inline-block;
+  transform: scale(1.2); 
+  color: white;
+  
+  background: radial-gradient(circle, #3243D0, #192173, black);
+}
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilos para el thumb (agarradera de la barra de desplazamiento) */
+::-webkit-scrollbar-thumb {
+  background: 
+  linear-gradient(346deg, rgba(93, 252, 168, 1), rgba(255, 0, 0, 0.007) 30.71%),
+  linear-gradient(167deg, rgba(212, 106, 44, 0.8), rgba(0, 255, 0, 0) 40.71%),
+  linear-gradient(270deg, rgba(251, 85, 159, 0.8), rgba(0, 0, 255, 0) 50.71%), 
+  linear-gradient(56deg, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0) 50.71%),
+  linear-gradient(10deg, rgba(0, 255, 0, 1), rgba(0, 255, 0, 0.226) 40.71%),
+  linear-gradient(217deg, rgba(0, 0, 255, 1), rgba(0, 0, 255, 0.171) 70.71%);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+/* Estilos para el track (fondo de la barra de desplazamiento) */
+::-webkit-scrollbar-track {
+  background: radial-gradient(circle, #3243D0, #192173, black);
+}
+.LeftSide {
+  display: flex;
+  width: 60%;
+  border: 10px solid green;
+}
+.LeftSide button{
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+}
+.RightSide {
+  width: 100%;
+  border: 10px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
